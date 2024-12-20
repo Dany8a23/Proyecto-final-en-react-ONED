@@ -1,0 +1,11 @@
+#Footer {
+    background-color: #333;
+    text-align: left;
+    height: 150px;
+    padding-top: 10px;
+    color: white;
+}
+
+a {
+    color: white;
+}

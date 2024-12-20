@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#NAVMENU {
+  background-color: #333;
+  overflow: hidden;
+}
+
+#NAVMENU #ULMENU {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#NAVMENU #ULMENU .LIMENU {
+  margin: 0;
+  padding: 0;
+}
+
+#NAVMENU #ULMENU .LIMENU .AMENU {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+  transition: background-color 0.3s;
+}
+
+#NAVMENU #ULMENU .LIMENU .AMENU:hover {
+  background-color: #575757;
+}
+
+#NAVMENU #ULMENU .LIMENU .AMENU:active {
+  background-color: #04aa6d;
+}
